@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    padding:0px;
+    margin:0px;
+}
+
+
+.main{
+    background-image: url("../images/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    background-attachment: fixed;
+}
+
+#navigation{
+    background:none;
+    border: none;
+    margin-bottom: 0px;
+    position: absolute;
+    z-index:10;
+    width:100%;
+}
+
+#navigation .navbar-toggle:hover{
+                    background:none;
+                    border: none;
+}
+
+#navigation .navbar-toggle{
+    display: block;
+    color: powderblue;
+    border: none;
+    cursor: pointer;
+}
+
+#navigation .navbar-header{
+         float: none;
+}
+
+#navigation .icon-bar-left{
+    float: left;
+}
+
+
+#navigation .icon-bar{
+    background-color: #fff;
+}
+#navigation .navbar-right {
+    float: left !important;
+}
+#navigation .navbar-brand,#navigation ul li a{
+            color: #fff;
+        
+}
+
+
+
+.containt{
+    padding-top:40%;
+    padding-left:30px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.bton{
+    background: none;
+    color: #fff;
+    border:1px solid #fff;
+}
+
+.containt p{
+    color:#fff;
+    line-height:20px;
+    padding:20px 0px;
+}
+.containt h4{
+    color: #fff;
+    font-size:25px;
+    padding-bottom: 10px;
+
+}
+.containt h1{
+    color:orangered;
+}
+
+.main .row {
+    margin-right:0px;
+    margin-left:0px;
+}
+
+.containt-imgage img{
+    width: 100%;
+    position: relative;
+    top:60px;
+   
+}
+/*close navigation*/
+/*start about-part*/
+.about-part{
+    /*margin:10% 0px;*/
+   
+    text-align: center;
+    padding:10% 0px;
+}
+.about-part h1{
+        padding:30px 0px;
+}
+.about-part p{
+            padding:30px 10px 10px 10px;
+}
+.about-part button{
+    background-color: orangered;
+    padding:5px 30px;
+}
+.about-part img{
+        width:100%;
+}
+/*close about-part*/
+
+/*start teacher-part*/
+.teacher-part{
+    background-image:url("../images/teacher-bg.png");
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding:40px 0px;
+    color: #fff;
+}
+.teacher-part img{
+            border-radius: 50%;
+            width:100%;
+
+}
+.teacher-part h1{
+        padding:0px 0px 25px 0px;
+        text-transform: capitalize;
+}
+
+
+.teacher-part p{
+         font-size:20px;
+         padding:10px 0px;
+}
+.teacher-part button{
+            padding:5px 30px;
+            margin: 20px 0px;
+}
+/*close teacher-part*/
+
+/*start student-part*/
+
+.imag{
+    background-color: orangered;
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    border-radius:50%;
+    position: relative;
+}
+
+.imag img{
+    position: absolute;
+    left:110px;
+    right:0px;
+    top:50px;
+    border-radius:50%;
+    border:#fff 25px solid;
+   
+}
+
+.student-part{
+    padding:40PX 0PX;
+    color: #000;
+}
+
+.student-part h1{
+            padding:30px 0px;
+}
+
+.student-part h3{
+    padding:20px 0px;
+}
+
+.student-part p{
+    padding:20px 15px 10px 15px;
+}
+/*close student-part*/
+
+
+/*start form-part*/
+.form-part{
+   
+    background-image:url("../images/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    margin:0 auto;
+    padding:50px 0px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.social{
+    padding:10% 0px 20px 0px;
+    line-height:35px;
+}
+
+.social .fa{
+    font-size: 25px;
+    padding:15px 10px;
+}
+
+.footer{
+    padding:30px 0px;
+ 
+}
+/*close form-part*/
+
+
+/*start media-queiry*/
+@media only screen and (max-width:780px){
+    .containt{
+        padding-top:60%;
+    }
+
+    .containt-imgage img{
+        width:60%;
+    }
+    .navbar-nav {
+          margin:0px
+    }
+   
+    
+}
+@media only screen and (max-width:1200px){
+    .social .space{
+        padding-top:50px;
+    }
+   
+    
+}
+
+
+
+@media only screen and (max-width:760px){
+    .teacher-part .space{
+        padding-top:50px;
+    }
+}
+
