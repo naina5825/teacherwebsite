@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding:0px;
+    box-sizing:border-box;
 }
 
 h1,h2,h3,h4,h5,h6,p,ul,li{
@@ -59,7 +60,10 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
         
 }
 
+/*start*/
 
+
+/*close */
 
 .containt{
     padding-top:40%;
@@ -105,7 +109,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 /*start about-part*/
 .about-part{
     /*margin:10% 0px;*/
-   
     text-align: center;
     padding:10% 0px;
 }
@@ -152,6 +155,22 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
             padding:5px 30px;
             margin: 20px 0px;
 }
+
+
+
+.carousel-indicators {
+            top:100%;
+}
+
+.carousel-control{
+            width:0px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    display: none;
+}
+
+
 /*close teacher-part*/
 
 /*start student-part*/
